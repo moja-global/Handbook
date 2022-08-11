@@ -1,0 +1,30 @@
+name: FLINT Handbook
+
+on:
+  push:
+   branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-deploy-handbook:
+    runs-on: ubuntu-latest  
+    name: Handbook site
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Build Handbook
+        run: |
+          make html
+          
+      - name: Set-up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "10.x"
+          
+      - name: Deploy Handbook
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _build/html
