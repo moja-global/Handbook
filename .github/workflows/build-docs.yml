@@ -17,6 +17,7 @@ jobs:
       - name: Build Handbook
         run: |
           pip install -U sphinx
+          pip install -r requirements.txt
           make html
           
       - name: Set-up Node
