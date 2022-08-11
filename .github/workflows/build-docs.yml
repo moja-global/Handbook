@@ -9,13 +9,14 @@ on:
 jobs:
   build-deploy-handbook:
     runs-on: ubuntu-latest  
-    name: Handbook site
+    name: Build & Deploy Handbook
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Build Handbook
         run: |
+          pip install -U sphinx
           make html
           
       - name: Set-up Node
