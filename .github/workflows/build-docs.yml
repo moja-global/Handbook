@@ -2,7 +2,7 @@ name: FLINT Handbook
 
 on:
   push:
-   branches: [ main ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -14,12 +14,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Build Handbook
+      - name: Install dependencies
         run: |
           pip install -U sphinx
           pip install -r requirements.txt
-          make html
-          
+      
+      - name: Build Handbook
+        uses: ammaraskar/sphinx-action@master
+        with:
+          docs-folder: "."
+        
       - name: Set-up Node
         uses: actions/setup-node@v1
         with:
