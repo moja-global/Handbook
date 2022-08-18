@@ -8,27 +8,24 @@ FLINT Handbook
 
 "There is nothing permanent except change. - Heraclitus ". 
 
-Change is a phenomenon we are taught to expect or welcome, but what should we do if those changes bring about adverse and unfortunate events? An excellent example of such a change is climate change. 
+We are trained to expect or welcome change, but what should we do if those changes result in unfavourable or unfavorable circumstances? Climate change is a prime illustration of such a change.
 
-Climate change can be referred to as long-term temperature and weather pattern shifts. Although these shifts may be natural, human activities like burning fossil fuels and deforestation have been the major cause of climate change since the 1800s. Other causes of climate change include solar variability, volcanic activity, etc.
+Long-term changes in temperature and weather patterns are referred to as climate change. Although these changes may be natural, since the 1800s, human actions like the combustion of fossil fuels and deforestation have been the primary contributors to climate change. Solar variation, volcanic activity, and other factors are some other natural sources of climate change.
 
-Land use associated with agriculture, forestry, and human development results in the emission of greenhouse gases that envelop the earth. Fossil fuels are a major source of emissions, but they are not the focus of FLINT.
-
-With climate change resulting in hotter temperatures, more severe storms, increased drought, rising sea levels, higher health risks, etc., more attention has been given to mitigating the effects of human-induced climate change, cue FLINT.
+Greenhouse gases that wrap the globe are released as a result of land usage related to agriculture, forestry, and human growth. More focus has been placed on reducing the effects of human-induced climate change, which includes hotter temperatures, more intense storms, increasing drought, rising sea levels, and increased health hazards. This brings us to FLINT.
 
 The Full Lands Integration Tool (FLINT) is a moja global software used for measuring, reporting, and verifying (MRV) greenhouse gas emissions and removals from forestry, agriculture, and other land uses (AFOLU).
 
 Consistent with the guidelines by the Intergovernmental Panel on Climate Change (IPCC), FLINT utilises multiple data streams to forecast future greenhouse gas emissions and removals.
 
 
-**What this handbook will contain.**
+**What is included in this handbook.**
 
-The FLINT handbook will discuss understanding climate science, the problems climate change poses to our environment, and steps we can take to mitigate the effects.
+Understanding climate science, the issues climate change poses to our environment, and the actions we can take to lessen its effects are all covered in the FLINT handbook.
 
-Expanding on FLINT, this handbook seeks to highlight FLINT modules, inputs and expected outputs from the tool. We shall discuss using carbon models like the Generic Carbon Budget Model (GCBM) to assess the natural and anthropogenic effects of disturbances like wildfire, oil and gas explorations, etc., on our forest's landscape.
+Expanding on FLINT, this handbook seeks to highlight FLINT modules, inputs and expected outputs from the tool. We discuss using carbon models like the Generic Carbon Budget Model (GCBM) to assess the natural and anthropogenic effects of disturbances like wildfire, oil and gas explorations, etc., on our forest's landscape.
 
-Lastly, we shall walk through what the future holds for the world we live in, what does increase in carbon dioxide mean for our forests, and, more importantly, how we expect our world to change.
-
+Finally, we discuss what the future holds for the world in which we live, the effects of rising carbon dioxide on our forests, and—most importantly—how we expect our planet to change.
 
 .. toctree::
    :hidden:
