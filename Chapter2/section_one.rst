@@ -27,8 +27,8 @@ The Chapman Richards equation calculates the above-ground and below-ground bioma
 ``AGC = * [ 1 - e ^ { -k *Age } ] ^ { ( 1 / (1-m) }``
 
 Where :
-- **AGC** is the Above-ground stand carbon (Tonne's carbon per hectare)
-- **Max** is the Asymptote, which is the maximum peak carbon yield (Tonne's carbon per hectare)
-- **k** is the parameter used in modeling tree growth. This parameter is dimensionless therefore having no physical unit
-- **age** is the age of the forest in years 
-- **M** is the parameter used in modeling tree growth. This parameter is dimensionless
+* **AGC** is the Above-ground stand carbon (Tonne's carbon per hectare)
+* **Max** is the Asymptote, which is the maximum peak carbon yield (Tonne's carbon per hectare)
+* **k** is the parameter used in modeling tree growth. This parameter is dimensionless therefore having no physical unit
+* **age** is the age of the forest in years 
+* **M** is the parameter used in modeling tree growth. This parameter is dimensionless

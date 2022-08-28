@@ -37,7 +37,7 @@ under nor over true emissions or removals, and those uncertainties are reduced a
 
 **Initial Conditions**
 
-**Simulations **
+**Simulations**
 
 The GCBM uses a stepwise iterative approach to run a simulation. This approach allows users to change data sources if and when new or improved data become available.
 
