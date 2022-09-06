@@ -12,16 +12,20 @@ Change is a phenomenon we are taught to expect or welcome, but what should we do
 
 Climate change can be referred to as long-term temperature and weather pattern shifts. Although these shifts may be natural, human activities like burning fossil fuels and deforestation have been the major cause of climate change since the 1800s. Other causes of climate change include solar variability, volcanic activity, etc.
 
-Land use associated with agriculture, forestry, and human development results in the emission of greenhouse gases that envelop the earth. Fossil fuels are a major source of emissions, but they are not the focus of FLINT.
-
-With climate change resulting in hotter temperatures, more severe storms, increased drought, rising sea levels, higher health risks, etc., more attention has been given to mitigating the effects of human-induced climate change, cue FLINT.
+Greenhouse gases that wrap the globe are released as a result of land usage related to agriculture, forestry, and human growth. More focus has been placed on reducing the effects of human-induced climate change, which includes hotter temperatures, more intense storms, increasing drought, rising sea levels, and increased health hazards. This brings us to FLINT.
 
 The Full Lands Integration Tool (FLINT) is a moja global software used for measuring, reporting, and verifying (MRV) greenhouse gas emissions and removals from forestry, agriculture, and other land uses (AFOLU).
 
 Consistent with the guidelines by the Intergovernmental Panel on Climate Change (IPCC), FLINT utilises multiple data streams to forecast future greenhouse gas emissions and removals.
 
+**Who is this handbook for?**
 
-**What this handbook will contain.**
+This handbook is geared toward introducing FLINT so that users can appreciate what FLINT aims to achieve, what inputs and processes go into creating analysis with the moja global software, and, more importantly, what the analysis results mean for the future of our environment.
+
+The handbook presents the topics clearly and concisely so that readers, regardless of their knowledge level, can understand the FLINT handbook and the advanced form of the topics treated in it when needed.
+
+
+**What is included in this handbook**
 
 The FLINT handbook will discuss understanding climate science, the problems climate change poses to our environment, and steps we can take to mitigate the effects.
 
