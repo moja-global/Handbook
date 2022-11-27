@@ -1,0 +1,453 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to create a reproducible pipeline with Moja Global Dataset. &#8212; FLINT Handbook  documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Chapter 4: The Work DVC Plays in the Land Sector Repo" href="index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">FLINT Handbook  documentation</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Chapter1/index.html">
+   Chapter 1: Understanding Climate Science and Carbon Models
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter1/section_one.html">
+     Explaining Climate mitigation and the dangers it poses to our society
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter1/section_two.html">
+     How does FLINT help solve issues arising from Climate Change
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Chapter2/index.html">
+   Chapter 2: Introduction to the Full Lands Integration Tool
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter2/section_one.html">
+     Modules
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter2/section_two.html">
+     Inputs
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter2/section_three.html">
+     Outputs
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Chapter3/index.html">
+   Chapter 3: Introduction to Generic Carbon Budget Model
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter3/section_one.html">
+     End-to-end workflow for the GCBM Analysis
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter3/section_two.html">
+     Post-processing
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter3/section_three.html">
+     What is the effect of running the model without disturbance?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="index.html">
+   Chapter 4: The Work DVC Plays in the Land Sector Repo
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     How to create a reproducible pipeline with Moja Global Dataset.
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/Chapter4/section_one.rst.txt"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.rst</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>How to create a reproducible pipeline with Moja Global Dataset.</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <div class="section" id="how-to-create-a-reproducible-pipeline-with-moja-global-dataset">
+<h1>How to create a reproducible pipeline with Moja Global Dataset.<a class="headerlink" href="#how-to-create-a-reproducible-pipeline-with-moja-global-dataset" title="Permalink to this headline">#</a></h1>
+<p>To add datasets to the Land sector
+<a class="reference external" href="https://github.com/moja-global/Land_Sector_Datasets">repository</a>, we
+start by cloning this repository. Check out <a class="reference external" href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">this
+article</a>
+to understand how to clone a repository on GitHub.</p>
+<p>Next, we go through the library and find the raw dataset that we want to
+process, in this case, the <code class="docutils literal notranslate"><span class="pre">HarmonizedWorldSoilDatabase</span></code> dataset. It
+is important to note that the <code class="docutils literal notranslate"><span class="pre">HarmonizedWorldSoilDatabase</span></code> is a test
+dataset. Each dataset will have specific transformation steps to prepare
+analysis, but each step can be run using our DVC pipelines. Each
+pipeline will follow the broad steps of download, extract and transform,
+then save the results on the remote storage.</p>
+<p>In the <code class="docutils literal notranslate"><span class="pre">Land_Sector_Datasets</span></code> repository we just cloned, navigate to
+the <code class="docutils literal notranslate"><span class="pre">bilToTif.py</span></code> file, which is nested in the <code class="docutils literal notranslate"><span class="pre">Data/Soil</span></code>
+directory.</p>
+<p>This <code class="docutils literal notranslate"><span class="pre">Data/Soil/bilToTif.py</span></code> file contains a <code class="docutils literal notranslate"><span class="pre">BILtoTIF</span></code> function
+that takes the raw <code class="docutils literal notranslate"><span class="pre">HarmonizedWorldSoilDatabase</span></code> dataset as a
+parameter and then converts the dataset from a <code class="docutils literal notranslate"><span class="pre">.bil</span></code> file to a
+<code class="docutils literal notranslate"><span class="pre">.tif</span></code> file. The <code class="docutils literal notranslate"><span class="pre">BILtoTIF</span></code> function then saves the <code class="docutils literal notranslate"><span class="pre">.tif</span></code> file.</p>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">BILtoTIF</span><span class="p">(</span><span class="n">inBilPath</span><span class="p">,</span><span class="n">outTifPath</span><span class="p">):</span>
+    <span class="n">inBil</span> <span class="o">=</span> <span class="n">gdal</span><span class="o">.</span><span class="n">Open</span><span class="p">(</span><span class="n">inBilPath</span><span class="p">)</span>
+    <span class="n">driver</span> <span class="o">=</span> <span class="n">gdal</span><span class="o">.</span><span class="n">GetDriverByName</span><span class="p">(</span><span class="s1">&#39;GTiff&#39;</span><span class="p">)</span>
+    <span class="n">outTif</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">CreateCopy</span><span class="p">(</span><span class="n">outTifPath</span><span class="p">,</span> <span class="n">inBil</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+
+    <span class="n">inBil</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">outTif</span> <span class="o">=</span> <span class="kc">None</span>
+</pre></div>
+</div>
+<p>Next, in the <code class="docutils literal notranslate"><span class="pre">Data/Soil/bilToTif.py</span></code> file, we have a
+<code class="docutils literal notranslate"><span class="pre">restructureTIF</span></code> function that restructures the <code class="docutils literal notranslate"><span class="pre">.tif</span></code> dataset using
+the options specified in the <code class="docutils literal notranslate"><span class="pre">restructureTIF</span></code>.</p>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span>   <span class="k">def</span> <span class="nf">restructureTIF</span><span class="p">(</span><span class="n">in_tif</span><span class="p">,</span> <span class="n">out_tif</span><span class="p">):</span>
+         <span class="n">options</span> <span class="o">=</span> <span class="n">gdal</span><span class="o">.</span><span class="n">WarpOptions</span><span class="p">(</span>
+             <span class="n">creationOptions</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;COMPRESS=DEFLATE&quot;</span><span class="p">,</span><span class="s2">&quot;PREDICTOR=2&quot;</span><span class="p">,</span><span class="s2">&quot;ZLEVEL=9&quot;</span><span class="p">],</span>
+             <span class="n">dstSRS</span><span class="o">=</span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
+             <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;GTiff&quot;</span><span class="p">,</span>
+             <span class="n">multithread</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+             <span class="n">xRes</span><span class="o">=</span><span class="mf">0.005</span><span class="p">,</span> <span class="n">yRes</span><span class="o">=</span><span class="mf">0.005</span><span class="p">,</span>
+             <span class="n">resampleAlg</span><span class="o">=</span><span class="s2">&quot;near&quot;</span><span class="p">,</span>
+          <span class="p">)</span>
+      <span class="n">gdal</span><span class="o">.</span><span class="n">Warp</span><span class="p">(</span><span class="n">destNameOrDestDS</span><span class="o">=</span><span class="n">out_tif</span><span class="p">,</span> <span class="n">srcDSOrSrcDSTab</span><span class="o">=</span><span class="n">in_tif</span><span class="p">,</span> <span class="n">options</span><span class="o">=</span><span class="n">options</span><span class="p">)</span>
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+   <span class="n">in_src</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot;HWSD_RASTER&quot;</span><span class="p">,</span><span class="s2">&quot;hwsd.bil&quot;</span><span class="p">)</span>
+   <span class="n">out_src</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot;HWSD_VECTOR&quot;</span><span class="p">,</span><span class="s2">&quot;HarmonizedWorldSoilDatabase_RAW.tif&quot;</span><span class="p">)</span>
+   <span class="n">BILtoTIF</span><span class="p">(</span><span class="n">in_src</span><span class="p">,</span><span class="n">out_src</span><span class="p">)</span>
+   <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">out_src</span><span class="p">):</span>
+       <span class="n">restructuredTifPath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot;HWSD_VECTOR&quot;</span><span class="p">,</span><span class="s2">&quot;HarmonizedWorldSoilDatabase_RESTRUCTURED.tif&quot;</span><span class="p">)</span>
+       <span class="n">restructureTIF</span><span class="p">(</span><span class="n">in_tif</span><span class="o">=</span><span class="n">out_src</span><span class="p">,</span> <span class="n">out_tif</span><span class="o">=</span><span class="n">restructuredTifPath</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>We can see the different options specified in the code block above.</p>
+<p>The project’s root directory has a <code class="docutils literal notranslate"><span class="pre">dvc.yaml</span></code> file. This <code class="docutils literal notranslate"><span class="pre">dvc.yaml</span></code>
+file contains an established DVC pipeline.</p>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="nb">vars</span><span class="p">:</span>
+   <span class="o">-</span> <span class="n">python</span><span class="p">:</span> <span class="n">C</span><span class="p">:</span>\<span class="n">Develop</span>\<span class="n">anaconda</span>\<span class="n">envs</span>\<span class="n">gdal</span>\<span class="n">python</span><span class="o">.</span><span class="n">exe</span>
+   <span class="n">stages</span><span class="p">:</span>
+       <span class="n">HarmonizedWorldSoilDatabase</span><span class="p">:</span>
+           <span class="n">cmd</span><span class="p">:</span> <span class="n">python</span> <span class="n">bilToTif</span><span class="o">.</span><span class="n">py</span>
+           <span class="n">wdir</span><span class="p">:</span> <span class="n">Data</span><span class="o">/</span><span class="n">Soil</span>
+           <span class="n">deps</span><span class="p">:</span>
+           <span class="o">-</span> <span class="n">HWSD_RASTER</span>\<span class="n">hwsd</span><span class="o">.</span><span class="n">bil</span>
+           <span class="o">-</span> <span class="n">bilToTif</span><span class="o">.</span><span class="n">py</span>
+           <span class="n">outs</span><span class="p">:</span>
+           <span class="o">-</span> <span class="n">HWSD_VECTOR</span>\<span class="n">HarmonizedWorldSoilDatabase_RAW</span><span class="o">.</span><span class="n">tif</span>
+           <span class="o">-</span> <span class="n">HWSD_VECTOR</span>\<span class="n">HarmonizedWorldSoilDatabase_RESTRUCTURED</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+<p>The DVC pipeline does the following:
+* Runs the <code class="docutils literal notranslate"><span class="pre">bilToTif</span></code> script
+* Pushes the processed data to a remote storage</p>
+<p>In the root directory, there is a <code class="docutils literal notranslate"><span class="pre">.github</span></code> folder that contains a
+<code class="docutils literal notranslate"><span class="pre">workflows</span></code> folder. This <code class="docutils literal notranslate"><span class="pre">.github/workflows</span></code> directory contains a
+<code class="docutils literal notranslate"><span class="pre">health-check.yaml</span></code> file.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">github/workflows/health-check.yaml</span></code> file holds the GitHub Actions
+responsible for recreating this DVC pipeline.</p>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span>name: dvc-report
+on: [push]
+jobs:
+  run:
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: &#39;3.x&#39;
+      - uses: iterative/setup-dvc@v1
+      - uses: iterative/setup-cml@v1
+      - name: add dvc
+        env:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo &quot;# DVC REPORT&quot; &gt; report.md
+          echo &quot;## Files and Directories currently tracked&quot; &gt;&gt; report.md
+          dvc list -R --dvc-only . &gt;&gt; report.md
+          cml-send-comment report.md
+</pre></div>
+</div>
+<p>It is important to note that GitHub Actions only runs when there is a
+change in the python script, producing a different data output.</p>
+</div>
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Chapter 4: The Work DVC Plays in the Land Sector Repo</p>
+        </div>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By moja global<br/>
+  
+      &copy; Copyright 2022, moja global.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
