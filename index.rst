@@ -41,3 +41,4 @@ Lastly, we shall walk through what the future holds for the world we live in, wh
    Chapter2/index
    Chapter3/index
    Chapter4/index
+   Chapter6/index
