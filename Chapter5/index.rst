@@ -19,3 +19,4 @@ started with GCBM quickly.
    section_one
    section_two
    section_three
+   section_four

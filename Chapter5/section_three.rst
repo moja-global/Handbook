@@ -36,3 +36,12 @@ files. The yield curve data have one classifier, which is LdSpp. We link
 spatial inventory to yield curves with classifiers.
 
 .. image:: https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224279129_Screenshot+698.png
+
+.. |image1| image:: https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224097997_Screenshot+696.png
+.. |image2| image:: https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224098027_Screenshot+697.png
+.. |image3| image:: https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224137466_Screenshot+633.png
+.. |image4| image:: https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224137494_Screenshot+634.png
+.. |image5| image:: https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224181546_Screenshot+636.png
+.. |image6| image:: https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224181571_Screenshot+637.png
+.. |image7| image:: https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224221812_Screenshot+639.png
+.. |image8| image:: https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224221845_Screenshot+640.png

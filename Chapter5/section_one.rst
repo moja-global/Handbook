@@ -51,8 +51,10 @@ information:
 -  ``EULA.txt``: This file contains the agreement for using the GCBM
    simulation
 -  ``readme.txt``: This file contains the GCBM setup information
--  ``run_all.bat``: This file runs the project from start to finish ##
-   Prerequisites
+-  ``run_all.bat``: This file runs the project from start to finish 
+
+Prerequisites
+-------------
 
 To follow through with this documentation, we must have the following:
 
