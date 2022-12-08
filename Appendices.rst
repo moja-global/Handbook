@@ -25,8 +25,10 @@ Vision: The reproducible science stack
    -  The simulated system may be better described by an altered
       representation of important model processes. The composition of
       ensembles will change as improved models rise and fall in
-      popularity. ## Summary:
-
+      popularity. 
+      
+Summary:
+--------
 A version-controlled reporting framework that works with any FLINT-based
 workflow and enables the comparison of findings (in the same location)
 between a variety of models and datasets. The FLINT Science Comparison
