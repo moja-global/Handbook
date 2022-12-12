@@ -1,0 +1,745 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiler Configuration &#8212; FLINT Handbook  documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Chapter 6: Climate Projections" href="../Chapter6/index.html" />
+    <link rel="prev" title="Spatial data preparation(jupyter notebook)" href="section_three.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">FLINT Handbook  documentation</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Chapter1/index.html">
+   Chapter 1: Understanding Climate Science and Carbon Models
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter1/section_one.html">
+     The Organisations behind the Climate Mitigation Steps
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter1/section_two.html">
+     How does FLINT help solve issues arising from Climate Change
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Chapter2/index.html">
+   Chapter 2: Introduction to the Full Lands Integration Tool
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter2/section_one.html">
+     Modules
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter2/section_two.html">
+     Inputs
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter2/section_three.html">
+     Outputs
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Chapter3/index.html">
+   Chapter 3: Introduction to Generic Carbon Budget Model
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter3/section_one.html">
+     End-to-end workflow for the GCBM Analysis
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter3/section_two.html">
+     Post-processing
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter3/section_three.html">
+     What is the effect of running the model without disturbance?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Chapter4/index.html">
+   Chapter 4: The Work DVC Plays in the Land Sector Repo
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter4/section_one.html">
+     How to create a reproducible pipeline with Moja Global Dataset.
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="index.html">
+   Chapter 5: Running a GCBM Simulation
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="section_one.html">
+     Project structure and directory hierarchy overview
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="section_two.html">
+     Setting up our GCBM environment
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="section_two_a.html">
+       Installing Python
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="section_two_b.html">
+       Installing Microsoft Access Database Driver
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="section_two_c.html">
+       Installing Visual C++ Redistributable Packages
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="section_two_d.html">
+       Update GCBM Run Script
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="section_three.html">
+     Spatial data preparation(jupyter notebook)
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Tiler Configuration
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Chapter6/index.html">
+   Chapter 6: Climate Projections
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter6/section_one.html">
+     How do we expect our world to change?
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter6/section_two.html">
+     What does the increase in CO2 mean for forests?
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter6/section_three.html">
+     Changing Patterns
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Appendices.html">
+   Vision: The reproducible science stack
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/Chapter5/section_four.rst.txt"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.rst</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Tiler Configuration
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tabular-data-preparation-jupyter-notebook">
+   Tabular data preparation(jupyter notebook)
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#gcbm-run-and-result-visualization">
+   GCBM run and result visualization
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Tiler Configuration</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Tiler Configuration
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tabular-data-preparation-jupyter-notebook">
+   Tabular data preparation(jupyter notebook)
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#gcbm-run-and-result-visualization">
+   GCBM run and result visualization
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <div class="section" id="tiler-configuration">
+<h1>Tiler Configuration<a class="headerlink" href="#tiler-configuration" title="Permalink to this headline">#</a></h1>
+<p>The spatial layers need to be converted to a data format that the GCBM
+can use to run a simulation, and this conversion is done by the tiler.
+The tiler scripts use a mojadata python package to convert spatial data
+to the FLINT format.</p>
+<p>In our project, the tiler script can be located in this path
+<code class="docutils literal notranslate"><span class="pre">GCBM</span> <span class="pre">software</span> <span class="pre">and</span> <span class="pre">training</span> <span class="pre">components\Sample_Data_Exercise\tools\Tiler\tiler.py</span></code>.</p>
+<p>To configure the tiler, we open the tiler script in any code editor of
+our choice.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224317518_Screenshot+643.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224317518_Screenshot+643.png" />
+<p><strong>Update the bounding box</strong> Next, we update the bounding box. The
+bounding box defines the study area of the plant simulation, and other
+spatial layers are cropped and reprojected to the area specified in the
+bounding box.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224544784_Screenshot+643.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665224544784_Screenshot+643.png" />
+<p>The bounding box in the code block above receives three parameters:</p>
+<ul class="simple">
+<li><p>A path that points to the inventory shape layer, in this case,
+<code class="docutils literal notranslate"><span class="pre">inventory.shp</span></code></p></li>
+<li><p>An Attribute parameter, in this case, <code class="docutils literal notranslate"><span class="pre">PolyID</span></code>. This attribute is a
+chosen file that defines a simulation area that represents all of the
+polygons in the landscape</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">pixel_size</span></code> parameter defines the resolution at which the
+simulation should run</p></li>
+</ul>
+<p>Replace the bounding box with the code block below.</p>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">bbox</span> <span class="o">=</span> <span class="n">BoundingBox</span><span class="p">(</span>
+    <span class="n">VectorLayer</span><span class="p">(</span>
+        <span class="s2">&quot;bbox&quot;</span><span class="p">,</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">layer_root</span><span class="p">,</span> <span class="s2">&quot;inventory&quot;</span><span class="p">,</span> <span class="s2">&quot;inv_sample.shp&quot;</span><span class="p">),</span>
+        <span class="n">Attribute</span><span class="p">(</span><span class="s2">&quot;Age&quot;</span><span class="p">)),</span>
+    <span class="n">pixel_size</span><span class="o">=</span><span class="mf">0.01</span><span class="p">)</span>
+
+<span class="n">tiler</span> <span class="o">=</span> <span class="n">GdalTiler2D</span><span class="p">(</span><span class="n">bbox</span><span class="p">,</span> <span class="n">use_bounding_box_resolution</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Configure the Classifier layers</strong> After updating the bounding box, we
+configure the classifier layers. The classifier layers link spatial data
+to the yield table.</p>
+<p>The classifier layers are shown in the image below.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665225428527_Screenshot+647.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665225428527_Screenshot+647.png" />
+<p>Replace the classifier layers with this code block below.</p>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">classifier_layers</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="n">VectorLayer</span><span class="p">(</span><span class="s2">&quot;LdSpp&quot;</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">layer_root</span><span class="p">,</span> <span class="s2">&quot;inventory&quot;</span><span class="p">,</span> <span class="s2">&quot;inv_sample.shp&quot;</span><span class="p">),</span> <span class="n">Attribute</span><span class="p">(</span><span class="s2">&quot;LdSpp&quot;</span><span class="p">),</span> <span class="n">tags</span><span class="o">=</span><span class="p">[</span><span class="n">classifier_tag</span><span class="p">]),</span>
+        <span class="p">]</span>
+</pre></div>
+</div>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665225608392_Screenshot+648.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665225608392_Screenshot+648.png" />
+<p>In the images above, we do the following:</p>
+<ul class="simple">
+<li><p>Delete one classifier layer</p></li>
+<li><p>Change the name of the first classifier layer from <code class="docutils literal notranslate"><span class="pre">Classifier1</span></code> to
+<code class="docutils literal notranslate"><span class="pre">LdSpp</span></code>. We must keep this classifier name consistent, as we will
+use it to generate an input database later in this tutorial</p></li>
+<li><p>Change the path to the inventory shape layer</p></li>
+</ul>
+<p><strong>Configure the age layer</strong> Next, we update the age layer. We can see
+the age layer in the image below.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665225774781_Screenshot+649.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665225774781_Screenshot+649.png" />
+<p>We replace the age layer with this piece of code.</p>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="c1"># Age - layer name must be &quot;initial_age&quot; so that the script can update the GCBM configuration file.</span>
+        <span class="n">VectorLayer</span><span class="p">(</span><span class="s2">&quot;initial_age&quot;</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">layer_root</span><span class="p">,</span> <span class="s2">&quot;inventory&quot;</span><span class="p">,</span> <span class="s2">&quot;inv_sample.shp&quot;</span><span class="p">),</span> <span class="n">Attribute</span><span class="p">(</span><span class="s2">&quot;Age&quot;</span><span class="p">),</span>
+                    <span class="n">data_type</span><span class="o">=</span><span class="n">gdal</span><span class="o">.</span><span class="n">GDT_Int16</span><span class="p">,</span> <span class="n">raw</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span>
+</pre></div>
+</div>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665225881112_Screenshot+650.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665225881112_Screenshot+650.png" />
+<p><strong>Configure the mean annual temperature</strong> Next, we configure the mean
+annual temperature vector layer.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226000048_Screenshot+650-1.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226000048_Screenshot+650-1.png" />
+<p>The vector layer is replaced by this raster layer.</p>
+<div class="highlight-py notranslate"><div class="highlight"><pre><span></span><span class="n">RasterLayer</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">layer_root</span><span class="p">,</span> <span class="s2">&quot;environment&quot;</span><span class="p">,</span> <span class="s2">&quot;NAmerica_MAT_1971_2000.tif&quot;</span><span class="p">),</span>
+      <span class="n">name</span><span class="o">=</span> <span class="s2">&quot;mean_annual_temperature&quot;</span><span class="p">),</span>
+</pre></div>
+</div>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226446760_Screenshot+699.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226446760_Screenshot+699.png" />
+<p>We use the <code class="docutils literal notranslate"><span class="pre">NAmerica_MAT_1971_2000.tif</span></code>raster mean annual
+temperature layer in the code block above. The
+<code class="docutils literal notranslate"><span class="pre">NAmerica_MAT_1971_2000.tif</span></code> layer is in the
+<code class="docutils literal notranslate"><span class="pre">layers\raw\Environment\NAmerica_MAT_1971_2000.tif</span></code> directory.</p>
+<p><strong>Disturbance events</strong> Disturbances significantly change the forest
+dynamic; however, the initial test run will be without any disturbances.
+To simulate without disturbances, delete the disturbance layer.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226082096_Screenshot+651.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226082096_Screenshot+651.png" />
+<p>After we are done with this section, here is how our <code class="docutils literal notranslate"><span class="pre">tiler.py</span></code> file
+looks</p>
+<p><strong>Clean up Tiler script whitespace</strong> After configuring our tiler
+scripts, we clean up tabs and spaces using the Notepad++ editor. We
+clean up these spaces because Python is sensitive to whitespace and can
+throw an error.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226169556_Screenshot+656.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226169556_Screenshot+656.png" />
+<p><strong>Run the Tiler</strong> After cleaning up the tiler script, we run the
+<code class="docutils literal notranslate"><span class="pre">process_spatial_layers.bat</span></code> file. This <code class="docutils literal notranslate"><span class="pre">process_spatial_layers.bat</span></code>
+is in the <code class="docutils literal notranslate"><span class="pre">Sample_Data_Exercise\layers</span></code> directory.</p>
+<p><img alt="image9" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226514578_Screenshot+657.png" /> <img alt="image10" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226514597_Screenshot+658.png" /></p>
+<p>When the tiler script is done, the <code class="docutils literal notranslate"><span class="pre">Sample_Data_Exercise\layers\tiled</span></code>
+directory should contain these files.</p>
+<ul class="simple">
+<li><p>A <code class="docutils literal notranslate"><span class="pre">.tiff</span></code> file of the final cropped and reprojected version of each
+layer</p></li>
+<li><p>A JSON file for each <code class="docutils literal notranslate"><span class="pre">.tiff</span></code> file containing metadata and attribute
+table, if applicable</p></li>
+<li><p>A <code class="docutils literal notranslate"><span class="pre">study_area.json</span></code> file containing metadata about the tiled layers</p></li>
+</ul>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226551658_Screenshot+659.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226551658_Screenshot+659.png" />
+</div>
+<div class="section" id="tabular-data-preparation-jupyter-notebook">
+<h1>Tabular data preparation(jupyter notebook)<a class="headerlink" href="#tabular-data-preparation-jupyter-notebook" title="Permalink to this headline">#</a></h1>
+<p>Things to add:</p>
+<ul class="simple">
+<li><p>info about the Chapman-Richards growth function</p></li>
+<li><p>how <strong>curve_fit</strong> function from <strong>scipy</strong> works</p></li>
+<li><p>note on trying different initial guesses for parameters(can explain
+during the next call)</p></li>
+<li><p>mention the importance of data visualization, European Beech is an
+example</p></li>
+<li><p>note about species: Have to check if related species are in
+**documentation:raw-latex:<cite>species</cite>_names.csv**. ## Input database
+generation(Recliner2GCBM)</p></li>
+</ul>
+<p>Next, we need to generate the project input database. To create the
+input database, we need the following:</p>
+<ul class="simple">
+<li><p>A CBM3 ArchiveIndex Database (AIDB). The ArchiveIndex Database is a
+database that contains non-spatial and spatially referenced
+parameters. These parameters include but are not limited to decay
+rates, disturbance matrices, root biomass coefficients etc.</p></li>
+<li><p>A yield table in <code class="docutils literal notranslate"><span class="pre">.csv</span></code> or <code class="docutils literal notranslate"><span class="pre">.xls</span></code>/<code class="docutils literal notranslate"><span class="pre">.xlsx</span></code> format</p></li>
+</ul>
+<p><strong>Configure Project</strong> To start building the input database, we run the
+<code class="docutils literal notranslate"><span class="pre">input_database\run_recliner2gcbm_gui.bat</span></code> file. Running the
+<code class="docutils literal notranslate"><span class="pre">run_recliner2gcbm_gui.bat</span></code> file opens a <strong>Configure Project</strong> window.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226592289_Screenshot+662.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226592289_Screenshot+662.png" />
+<p>To configure a project, we do the following:</p>
+<ul class="simple">
+<li><p>Populate the <strong>AIDB Path</strong> input field with a link to the
+<code class="docutils literal notranslate"><span class="pre">ArchiveIndex_Beta_Install.mdb</span></code> file. The
+<code class="docutils literal notranslate"><span class="pre">ArchiveIndex_Beta_Install.mdb</span></code> file is located in the
+<code class="docutils literal notranslate"><span class="pre">input_database</span></code> directory</p></li>
+<li><p>Add a link to the <code class="docutils literal notranslate"><span class="pre">gcbm_input.db</span></code> file in the <strong>Path</strong> input field.
+The <code class="docutils literal notranslate"><span class="pre">gcbm_input.db</span></code> file is located in the <code class="docutils literal notranslate"><span class="pre">input_database</span></code>
+directory. The <code class="docutils literal notranslate"><span class="pre">gcbm_input.db</span></code> is the database that will be
+generated at the end of the process.</p></li>
+<li><p>Click <strong>yes</strong>, when the prompt asks you to replace the existing
+version of the file <img alt="image11" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226645335_Screenshot+666.png" /></p></li>
+</ul>
+<p><strong>Add Classifier</strong> After configuring our project, we add our classifiers
+layers.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226691110_Screenshot+667.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226691110_Screenshot+667.png" />
+<p>Clicking on the <strong>Add</strong> button opens up a window.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226739716_Screenshot+668.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226739716_Screenshot+668.png" />
+<p>The window prompts us to do the following:</p>
+<ul class="simple">
+<li><p>Input the <code class="docutils literal notranslate"><span class="pre">LdSpp</span></code> classifier name. The classifier name must be the
+same in our <code class="docutils literal notranslate"><span class="pre">tiler.py</span></code> file</p></li>
+<li><p>Link to the <code class="docutils literal notranslate"><span class="pre">yield_curves.csv</span></code> path in the <strong>Path</strong> input field.
+The <code class="docutils literal notranslate"><span class="pre">yield_curves.csv</span></code> file is in the <code class="docutils literal notranslate"><span class="pre">input_database</span></code> directory</p></li>
+<li><p>Click the Column select button and click the <strong>A</strong> column. Clicking
+the <strong>A column</strong> specifies which column has the <code class="docutils literal notranslate"><span class="pre">LdSpp</span></code> classifier
+values <img alt="image12" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226767050_Screenshot+669.png" /></p></li>
+</ul>
+<p>Click the <strong>Ok</strong> button.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226937771_Screenshot+675.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665226937771_Screenshot+675.png" />
+<p>After adding our classifier layers, we click the <strong>Next</strong> button.</p>
+<p><strong>Configure Growth Curves</strong> After configuring the classifiers, the next
+step is configuring the yield curves. In this step, we add a set of age
+and volume data to describe the tree growth.</p>
+<p>To configure the growth curves, we do the following:</p>
+<ul class="simple">
+<li><p>Add the path to the <code class="docutils literal notranslate"><span class="pre">yield_curves.csv</span></code> file in the <strong>File</strong> input
+field. This <code class="docutils literal notranslate"><span class="pre">yield_curves.csv</span></code> file contains the yield curve data
+for the classifier we just setup</p></li>
+<li><p>Click on the <code class="docutils literal notranslate"><span class="pre">LdSpp</span></code> Classifier Column <strong>Select</strong> button and click
+a row in column <strong>A.</strong> Clicking a row in column <strong>A</strong> specifies what
+column the <code class="docutils literal notranslate"><span class="pre">LdSpp</span></code> classifier maps to</p></li>
+<li><p>Change the <strong>Growth curve interval</strong> to 10, and click the <strong>Age10</strong>
+data header. The <strong>Growth curve interval</strong> is the number of years
+between volume increments for all the curves in the
+<code class="docutils literal notranslate"><span class="pre">yield_curves.csv</span></code> file</p></li>
+<li><p>Identify which columns represent the species, forest type or the
+archive index tree species column. Click the <strong>Species</strong> select
+button and click column <strong>B.</strong> Clicking column <strong>B c</strong>hanges the
+<strong>Species</strong> input field to 1</p></li>
+<li><p>Identify what columns represent the start and the end of the volume
+increments. To specify the start column, we click on the first
+<strong>Increments “…”</strong> button and click anywhere in the <strong>C</strong> column. To
+specify the end column, we click the second <strong>Increments</strong> “<strong>…</strong>”
+button and click anywhere in the last increment column to the right.
+Mapping these columns will give the <strong>Increments</strong> input field a
+value of 2 and 32, respectively</p></li>
+<li><p>Click the <strong>Next</strong> button to continue</p></li>
+</ul>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665227021699_Screenshot+679.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665227021699_Screenshot+679.png" />
+<p><strong>Optional data</strong> After configuring the growth curves, we see the
+<strong>transition rules screen.</strong> Transition rules ****describe what happens
+after specific stand types are disturbed by specific disturbance events.
+This documentation will not cover transition rules as they are optional.
+Click on the <strong>Next</strong> button to continue.</p>
+<p>After the T<strong>ransition Rules screen,</strong> the ****following screen
+****is the <strong>Configure Disturbance Categories screen.</strong> The <strong>Configure
+Disturbance Categories screen</strong> is an optional advanced GCBM module
+component that will not be covered in this documentation<strong>.</strong> Click on
+the <strong>Next</strong> button to continue<strong>.</strong></p>
+<p><img alt="image13" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665227053085_Screenshot+680.png" /> <img alt="image14" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665227053051_Screenshot+681.png" /></p>
+<p><strong>Save Recliner2GCBM configuration</strong> After configuring the data to
+create an input database, we need to save it. In this section, we do the
+following:</p>
+<ul class="simple">
+<li><p>Check the previous steps for errors</p></li>
+<li><p>Save the data in the <code class="docutils literal notranslate"><span class="pre">input_database</span></code> directory using the <strong>Save
+configuration</strong> button. By default, the data is saved in a
+<code class="docutils literal notranslate"><span class="pre">recliner2gcbm_config.json</span></code> file <img alt="image15" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665227099306_Screenshot+682.png" /> <img alt="image16" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665227099331_Screenshot+683.png" /></p></li>
+<li><p>Click the <strong>Load</strong> button to generate the input database, wait for a
+few minutes and then click <strong>Done</strong> <img alt="image17" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665227252988_Screenshot+685.png" /> <img alt="image18" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665227252937_Screenshot+686.png" /></p></li>
+</ul>
+<p><strong>Configure start/end date</strong> Next, we configure the simulation start and
+end date in the <code class="docutils literal notranslate"><span class="pre">run_all.bat</span></code> file. We open the <code class="docutils literal notranslate"><span class="pre">run_all.bat</span></code> file
+in a text editor of our choice. Next, we change the
+<code class="docutils literal notranslate"><span class="pre">SIMULATION_START_YEAR</span></code> variable to 1990 and the
+<code class="docutils literal notranslate"><span class="pre">SIMULATION_END_YEAR</span></code> variable to 2000.</p>
+<div class="highlight-bat notranslate"><div class="highlight"><pre><span></span><span class="k">set</span> <span class="nv">SIMULATION_START_YEAR</span><span class="p">=</span> 1990
+<span class="k">set</span> <span class="nv">SIMULATION_END_YEAR</span><span class="p">=</span> 2000
+</pre></div>
+</div>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665228309396_Screenshot+687.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665228309396_Screenshot+687.png" />
+</div>
+<div class="section" id="gcbm-run-and-result-visualization">
+<h1>GCBM run and result visualization<a class="headerlink" href="#gcbm-run-and-result-visualization" title="Permalink to this headline">#</a></h1>
+<p>After configuring the GCBM, we run the simulation by clicking on the
+<code class="docutils literal notranslate"><span class="pre">run_all.bat</span></code> file. We see the processed output in the
+<code class="docutils literal notranslate"><span class="pre">processed_output</span></code> folder.</p>
+<img alt="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665331076441_Screenshot+702.png" src="https://paper-attachments.dropboxusercontent.com/s_C62E98ACCB4207E09399EF70CCC5A9D6995D66B82064646EB958DB6F9AC550B3_1665331076441_Screenshot+702.png" />
+</div>
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="section_three.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Spatial data preparation(jupyter notebook)</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../Chapter6/index.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Chapter 6: Climate Projections</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By moja global<br/>
+  
+      &copy; Copyright 2022, moja global.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

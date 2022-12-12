@@ -8,7 +8,7 @@ The GCBM simulation simulates forest landscapes with data from past events and d
 
 Forest landscapes undergo different disturbances. These disturbances, for example, land-use changes, selective harvesting, wildfire, hurricanes, pests, etc.,  are inescapable and are responsible for altering the C dynamics of forests.
 
-To simulate these natural and anthropogenic disturbances and their effects on our forest landscapes, the GCBM uses disturbance matrices. Disturbance matrices contain information about 22 carbon pools that can be grouped into the five Intergovernmental Panel on Climate Change(IPCC) carbon pools. Disturbance matrices define the quantity of carbon transferred between two model pools, the pools, and the atmosphere, and between the pools and harvested wood products. 
+To simulate these natural and anthropogenic disturbances and their effects on our forest landscapes, the GCBM uses disturbance matrices. Disturbance matrices contain information about 22 carbon pools that can be grouped into the five Intergovernmental Panel on Climate Change(IPCC) carbon pools. Disturbance matrices define the quantity of carbon transferred between two model pools, the pools and the atmosphere, and between the pools and harvested wood products. 
 
 The disturbance matrix defined the amount of carbon transferred to the wood product sector to represent harvest-type disturbances.
 
@@ -23,7 +23,7 @@ For the GCBM to properly simulate the flow of carbon between pools, it requires 
 
 This forest stand inventory has to be spatially explicit, and it should contain the age of the stands and a set of features of the stand, which are referred to as “classifiers”. Classifiers are defined by the user and can be related to site productivity, leading species, ownership, etc.
 
-The forest stands inventory is classified with three classifiers. The dominant species of the ecosystem determine the first classifier. The second inventory classifier is the “Structure” of the forest. The third classifier is “Origin”, this origin classifier tracks the emission reductions derived from non-forest to forest land-use changes.
+The forest stands inventory is classified with three classifiers. The dominant species of the ecosystem determine the first classifier. The second inventory classifier is the “Structure” of the forest. The third classifier is “Origin”. This origin classifier tracks the emission reductions derived from non-forest to forest land-use changes.
 country to provide an authoritative source of global greenhouse gas emissions. These reports underpin important international treaties like the Paris Agreement. The Paris agreement effectively negotiates between countries that are responsible for cutting emissions and who sequester the most atmospheric carbon. Broadly, we have a goal for the entire world to be carbon neutral by 2050 (this is referred to as ''net zero'' where emissions are perfectly balanced by sequestration), hopefully keeping global warming under a +2C increase in long-term mean temperature. If we fail to achieve this goal, we might end up in a +4C world which is catastrophic.
 
 **Growth Curves**

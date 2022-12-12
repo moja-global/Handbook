@@ -93,7 +93,7 @@
   <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../Chapter1/section_one.html">
-     Explaining Climate mitigation and the dangers it poses to our society
+     The Organisations behind the Climate Mitigation Steps
     </a>
    </li>
    <li class="toctree-l2">
@@ -173,6 +173,102 @@
     </a>
    </li>
   </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Chapter5/index.html">
+   Chapter 5: Running a GCBM Simulation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter5/section_one.html">
+     Project structure and directory hierarchy overview
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../Chapter5/section_two.html">
+     Setting up our GCBM environment
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Chapter5/section_two_a.html">
+       Installing Python
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Chapter5/section_two_b.html">
+       Installing Microsoft Access Database Driver
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Chapter5/section_two_c.html">
+       Installing Visual C++ Redistributable Packages
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../Chapter5/section_two_d.html">
+       Update GCBM Run Script
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter5/section_three.html">
+     Spatial data preparation(jupyter notebook)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter5/section_four.html">
+     Tiler Configuration
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../Chapter6/index.html">
+   Chapter 6: Climate Projections
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter6/section_one.html">
+     How do we expect our world to change?
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter6/section_two.html">
+     What does the increase in CO2 mean for forests?
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../Chapter6/section_three.html">
+     Changing Patterns
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Appendices.html">
+   Vision: The reproducible science stack
+  </a>
  </li>
 </ul>
 
@@ -310,6 +406,7 @@ title="Print to PDF"
                 
   <div class="section" id="modules">
 <h1>Modules<a class="headerlink" href="#modules" title="Permalink to this headline">#</a></h1>
+<p>This section discusses what modules are and their relevance to climate science. To get started with modules, we need to understand what operations are in FLINT.</p>
 <p>Carbon stocks are usually transferred from one pool to the other in nature. To move carbon between pools, FLINT uses <strong>operations</strong>.</p>
 <p>A module is a self-contained set of operations designed to describe the processes driving carbon changes in a landscape across a specified period. The FLINT tool uses modules to simulate different environments and processes related to carbon transfer.</p>
 <p>Modules manage state variables and carbon pools. State variables are variables used to represent environmental features like the height or age of a tree. At the same time, carbon pools are natural reservoirs or containers that hold carbon.</p>
@@ -317,18 +414,18 @@ title="Print to PDF"
 <p><strong>Roth C Soil Model</strong></p>
 <p>RothC is a module that simulates carbon turnover in non-waterlogged soil, allowing for the effects of soil type, temperature, moisture content, and plant cover on the turnover process. It uses a monthly time step to calculate total organic and microbial biomass carbon on a year to centuries timescale. The Roth C model requires a few readily accessible inputs.</p>
 <p>The RothC module runs in two modes:
-Forward mode: This mode happens when the inputs or data that are known are used to calculate changes in soil organic matter
-Inverse mode happens when unknown inputs are calculated from known changes in soil organic matter.</p>
+- <strong>Forward mode:</strong> This mode happens when the inputs or data that are known are used to calculate changes in soil organic matter
+- <strong>Inverse mode:</strong> happens when unknown inputs are calculated from known changes in soil organic matter.</p>
 <p><strong>Chapman Richards Forest Model</strong></p>
-<p>The Chapman Richards module is a tier 3 module. This tier 3 module uses the Chapman Richards equation to evaluate the greenhouse gas emissions and removals due to changes in the total quantity of carbon for forests.</p>
-<p>The Chapman Richards equation calculates the above-ground and below-ground biomass using the module. The Chapman Richards equation can be expressed mathematically below.</p>
+<p>The Chapman Richards module is a tier 3 module. This tier 3 module uses the Chapman-Richards equation to evaluate the greenhouse gas emissions and removals due to changes in the total quantity of carbon for forests.</p>
+<p>The Chapman-Richards equation, which allows us to calculate the above-ground and below-ground biomass, can be expressed mathematically below.</p>
 <p><code class="docutils literal notranslate"><span class="pre">AGC</span> <span class="pre">=</span> <span class="pre">*</span> <span class="pre">[</span> <span class="pre">1</span> <span class="pre">-</span> <span class="pre">e</span> <span class="pre">^</span> <span class="pre">{</span> <span class="pre">-k</span> <span class="pre">*Age</span> <span class="pre">}</span> <span class="pre">]</span> <span class="pre">^</span> <span class="pre">{</span> <span class="pre">(</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">(1-m)</span> <span class="pre">}</span></code></p>
 <p>Where :
-* <strong>AGC</strong> is the Above-ground stand carbon (Tonne’s carbon per hectare)
-* <strong>Max</strong> is the Asymptote, which is the maximum peak carbon yield (Tonne’s carbon per hectare)
-* <strong>k</strong> is the parameter used in modeling tree growth. This parameter is dimensionless therefore having no physical unit
-* <strong>age</strong> is the age of the forest in years
-* <strong>M</strong> is the parameter used in modeling tree growth. This parameter is dimensionless</p>
+- <strong>AGC</strong> is the Above-ground stand carbon (Tonne’s carbon per hectare)
+- <strong>Max</strong> is the Asymptote, which is the maximum peak carbon yield (Tonne’s carbon per hectare)
+- <strong>k</strong> is the parameter used in modeling tree growth. This parameter is dimensionless therefore having no physical unit
+- <strong>age</strong> is the age of the forest in years
+- <strong>M</strong> is the parameter used in modeling tree growth. This parameter is dimensionless</p>
 </div>
 
 

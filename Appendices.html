@@ -1,0 +1,777 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vision: The reproducible science stack &#8212; FLINT Handbook  documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Conclusion" href="Conclusion.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">FLINT Handbook  documentation</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Chapter1/index.html">
+   Chapter 1: Understanding Climate Science and Carbon Models
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter1/section_one.html">
+     The Organisations behind the Climate Mitigation Steps
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter1/section_two.html">
+     How does FLINT help solve issues arising from Climate Change
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Chapter2/index.html">
+   Chapter 2: Introduction to the Full Lands Integration Tool
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter2/section_one.html">
+     Modules
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter2/section_two.html">
+     Inputs
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter2/section_three.html">
+     Outputs
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Chapter3/index.html">
+   Chapter 3: Introduction to Generic Carbon Budget Model
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter3/section_one.html">
+     End-to-end workflow for the GCBM Analysis
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter3/section_two.html">
+     Post-processing
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter3/section_three.html">
+     What is the effect of running the model without disturbance?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Chapter4/index.html">
+   Chapter 4: The Work DVC Plays in the Land Sector Repo
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter4/section_one.html">
+     How to create a reproducible pipeline with Moja Global Dataset.
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Chapter5/index.html">
+   Chapter 5: Running a GCBM Simulation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter5/section_one.html">
+     Project structure and directory hierarchy overview
+    </a>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="Chapter5/section_two.html">
+     Setting up our GCBM environment
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+    <label for="toctree-checkbox-6">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="Chapter5/section_two_a.html">
+       Installing Python
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="Chapter5/section_two_b.html">
+       Installing Microsoft Access Database Driver
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="Chapter5/section_two_c.html">
+       Installing Visual C++ Redistributable Packages
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="Chapter5/section_two_d.html">
+       Update GCBM Run Script
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter5/section_three.html">
+     Spatial data preparation(jupyter notebook)
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter5/section_four.html">
+     Tiler Configuration
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="Chapter6/index.html">
+   Chapter 6: Climate Projections
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter6/section_one.html">
+     How do we expect our world to change?
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter6/section_two.html">
+     What does the increase in CO2 mean for forests?
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="Chapter6/section_three.html">
+     Changing Patterns
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Vision: The reproducible science stack
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/Appendices.rst.txt"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.rst</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#summary">
+   Summary:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#components">
+   Components:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#system-control-flow">
+   System control flow:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prior-art">
+   Prior art:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-requirements">
+   Data requirements:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ensemble-assessment">
+   Ensemble assessment:
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Vision: The reproducible science stack</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#summary">
+   Summary:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#components">
+   Components:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#system-control-flow">
+   System control flow:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prior-art">
+   Prior art:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-requirements">
+   Data requirements:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ensemble-assessment">
+   Ensemble assessment:
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <div class="section" id="vision-the-reproducible-science-stack">
+<h1>Vision: The reproducible science stack<a class="headerlink" href="#vision-the-reproducible-science-stack" title="Permalink to this headline">#</a></h1>
+<p><em>Author: Andrew O’Reilly Nugent</em></p>
+<ul class="simple">
+<li><p>Iterative</p>
+<ul>
+<li><p>A model representing simulations at a given location will be run
+and re-run many times. The collective behavior of model
+simulations (an ensemble) is summarised to assess the quality of
+the results</p></li>
+</ul>
+</li>
+<li><p>Containerized</p>
+<ul>
+<li><p>Models have a single defined operating environment that can be run
+on a virtualized machine.</p></li>
+</ul>
+</li>
+<li><p>Traceable</p>
+<ul>
+<li><p>All data and sources are given identifiers that can be used to
+trace the provenance of a result</p></li>
+</ul>
+</li>
+<li><p>Learning</p>
+<ul>
+<li><p>The simulated system may be better described by an altered
+representation of important model processes. The composition of
+ensembles will change as improved models rise and fall in
+popularity.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="summary">
+<h2>Summary:<a class="headerlink" href="#summary" title="Permalink to this headline">#</a></h2>
+<p>A version-controlled reporting framework that works with any FLINT-based
+workflow and enables the comparison of findings (in the same location)
+between a variety of models and datasets. The FLINT Science Comparison
+(FSC) Working Group will be able to evaluate the effectiveness of open
+science models and produce incremental model modifications over time
+thanks to this versioning and comparison.</p>
+<p>At a high level, this looks simple:</p>
+<ul class="simple">
+<li><p>FSC Working Group will deploy and maintain an open-source science
+model.</p></li>
+<li><p>Open and closed datasets will be configured and maintained over time.</p></li>
+<li><p>The science community is invited to review the science model and the
+simulation reports</p></li>
+<li><p>Suggestions are made to improve the quality of the simulation over
+time. <img alt="image1" src="https://lh4.googleusercontent.com/ylR-w6DFrkRO0JG0ABoFj6aInfhoLpbNc7Et9sgn-Ivyz0IHWmHkVOJWPnZ2yOxlAUSY9VzjTGuHgj7SxmV8uYvAyNjln9nnEeV1kh3yZNMpWF3FEgoFk8do-kgaxJeW73Ys-qV6FpLYAAZ_pOj2qCEKne8qwyKHnYkwE-2DbN5HliVBENBHFpQS3lqlsQ" /></p></li>
+</ul>
+<p>However, making the FSC assessment system last over time is a challenge.
+Models are frequently created for a particular report and then forgotten
+about. The likelihood that we will be able to provide an accurate
+judgment of the natural world is reduced by this long-term memory loss.
+We can recall a simulation at any point in the future by enlivening
+models using a distributed reproducibility system. Simulations that are
+repeated help us learn</p>
+</div>
+<div class="section" id="components">
+<h2>Components:<a class="headerlink" href="#components" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>The FLINT computational engine runs landscape scale simulations of
+land use and land use change, including forest growth, harvest, and
+carbon flux. The FLINT can be run on local workstations, in a
+(commercially) managed environment, or on user-hosted cloud
+resources.</p></li>
+<li><p>The GCBM modules are one example of an open science forest model. The
+model requires information on forest areas, such as age, rainfall,
+temperature, growth rates, harvest, and disturbance records.</p></li>
+<li><p>Open datasets include the <a class="reference external" href="https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2021_v1_9">Hansen Forest cover
+dataset</a>
+and the <a class="reference external" href="https://www.worldclim.org/data/bioclim.html">WorldClim BioClimatic
+datasets</a>. Growth
+rates are available for some regions. Closed datasets include the
+site-specific growth rates and harvest and disturbance records.
+Forest managers typically best report forest locations/boundaries and
+forest age.</p></li>
+<li><p>An MLOps versioning system called Data Version Control (DVC). DVC
+records the exact model compilation and datasets used to create a
+specific report. It is independent of the hardware, model, or
+platform that created the result. DVC records ensure reproducibility,
+which means that the same results can be shown for an equivalent
+model with equivalent input data</p></li>
+<li><p>An ensemble is the collection of multiple reports, e.g., from
+different data sources or different science models, for a given
+location. Ensemble results can be assessed for agreement or coherence
+without needing access to the underlying data or computational
+platform that generated the result. Ensembles that agree tend to
+engender higher credibility than ensembles that do not agree.</p></li>
+<li><p>Data scientists may use local systems to execute these models. As an
+alternative, the generation of DVC-compliant reports can be automated
+using a continuous integration system (like Github Actions) whenever
+changes are made to the underlying dataset, such as when new data is
+collected. This has the potential to operate a FLINT-based open
+science model sustainably and efficiently. GitHub Actions can command
+cloud-hosted FLINT instances operating within protected environments,
+with access to otherwise closed data. Data does not leave the
+protected environment, however, a simulation record can be reported
+back to the open-source community for review.</p></li>
+<li><p>Data can be stored on cloud storage or in managed databases. Data
+storage may be open (e.g., Google Drive), open access, but the user
+pays to support hosting costs or closed. Spatially explicit data,
+like area boundaries and forest cover time series, are typically best
+stored in object storage (e.g., as files on S3). Alternatively,
+spatially referenced data, like harvest records for a specific forest
+stand (sometimes referred to as a forest coupe), can be stored in
+tabular databases or spreadsheets.</p></li>
+</ul>
+</div>
+<div class="section" id="system-control-flow">
+<h2>System control flow:<a class="headerlink" href="#system-control-flow" title="Permalink to this headline">#</a></h2>
+<img alt="https://lh5.googleusercontent.com/6VgMqGMIPFOlgg4IKGIxHpjnDL7CWug9VKW0YwawYPPUL3aJeg4dL5hrQDosJisaB6T5plCF4eyXTIkx209hVzHIPlX6rNSIKHa2KgADwpOZ41bEYRkkNPO6F7cSHhvnNUB25PeAEbvOEd1jucadX0keuYW85h3xmEnhH9-X9fV1Gnq7e__bfxtsfiujKg" src="https://lh5.googleusercontent.com/6VgMqGMIPFOlgg4IKGIxHpjnDL7CWug9VKW0YwawYPPUL3aJeg4dL5hrQDosJisaB6T5plCF4eyXTIkx209hVzHIPlX6rNSIKHa2KgADwpOZ41bEYRkkNPO6F7cSHhvnNUB25PeAEbvOEd1jucadX0keuYW85h3xmEnhH9-X9fV1Gnq7e__bfxtsfiujKg" />
+<p>An overview of the steps <em>(from top to bottom)</em></p>
+<ul class="simple">
+<li><p>A data science workflow is defined to compile simulation input</p></li>
+<li><p>Datasets are hosted on remote storage and indexed by DVC</p></li>
+<li><p>A standard report template is configured for each simulation, indexed
+by location</p>
+<ul>
+<li><p>GCBM.Belize, GCBM.Colombia, GCBM.Chile</p></li>
+</ul>
+</li>
+<li><p>The automated integration system detects changes and re-runs the
+simulation</p></li>
+<li><p>Monitoring and observability services store a log of the new results</p></li>
+<li><p>The simulation report is publicly available from GitHub.</p></li>
+</ul>
+</div>
+<div class="section" id="prior-art">
+<h2>Prior art:<a class="headerlink" href="#prior-art" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>a DVC Pipeline for the GCBM Science Model
+(<a class="reference external" href="https://github.com/radistoubalidis/GCBM.Belize/pull/1">link</a>)</p>
+<ul>
+<li><p>metadata and version control</p></li>
+</ul>
+</li>
+<li><p>a GitHub Action for the GCBM Science Model
+(<a class="reference external" href="https://github.com/moja-global/FLINT.Cloud/blob/b3152f842e6d1d8e591e2cb0136d9a7d3db27c5a/.github/workflows/cml-report.yml">link</a>)</p>
+<ul>
+<li><p>automating integration when data/models are updated</p></li>
+</ul>
+</li>
+<li><p>the GCBM Science Model in Belize using open, global data
+(<a class="reference external" href="https://docs.google.com/presentation/d/10bP6wk5YWMXBchPyff8ZMexlsbmVtuGq5mQzltflPvw/edit?usp=sharing">slides</a>)</p>
+<ul>
+<li><p>broad strokes template that should be globally applicable</p></li>
+</ul>
+</li>
+<li><p>the GCBM Science Model in Chile using closed, local data
+(<a class="reference external" href="https://www.researchgate.net/publication/341041237_Modelling_forest_carbon_dynamics_for_REDD_using_the_Generic_Carbon_Budget_Model_GCBM_Pilot_Project_Los_Rios_Region_-_Chile">report</a>)</p>
+<ul>
+<li><p>the report shows how models can be customized to increase accuracy</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="data-requirements">
+<h2>Data requirements:<a class="headerlink" href="#data-requirements" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Regionally appropriate growth and turnover parameters for Canada,
+Amazon, Scandinavia, Baltics, and Russia, and South East Asia</p>
+<ul>
+<li><p>Where growth is measured in cubic meters, an appropriate volume to
+biomass conversion is required</p></li>
+</ul>
+</li>
+<li><p>Forest cover maps, potentially including one or more of</p>
+<ul>
+<li><p>Hansen et al. <a class="reference external" href="https://glad.earthengine.app/view/global-forest-change">Global Forest
+Change</a></p></li>
+<li><p>Mapping by commercial remote sensing providers</p></li>
+</ul>
+</li>
+<li><p>Average annual rainfall and temperature</p>
+<ul>
+<li><p>as described in <a class="reference external" href="https://www.worldclim.org/data/bioclim.html">Bioclimatic variables — WorldClim 1
+documentation</a></p></li>
+</ul>
+</li>
+<li><p>Clustering of eco-regions</p>
+<ul>
+<li><p>for example, using <a class="reference external" href="https://en.wikipedia.org/wiki/Holdridge_life_zones">Holdridge life zones -
+Wikipedia</a></p></li>
+</ul>
+</li>
+<li><p>Assessment of planting and harvest frequency</p>
+<ul>
+<li><p>Used to estimate initial stand age at the beginning of a
+simulation</p></li>
+<li><p>Where known, harvest regimes can be incorporated into the
+simulation, otherwise, a long term means harvest frequency can be
+used as a substitute.</p></li>
+</ul>
+</li>
+<li><p>If used, an ecologically appropriate impact transition matrix</p>
+<ul>
+<li><p>This matrix describes the impact of management and disturbance on
+forest carbon stores across multiple pools</p></li>
+<li><p>For example, different harvesting techniques leave a varying
+amount of non-merchantable biomass on site.</p></li>
+<li><p>For example, fire can release biomass stored in post-harvest
+residues to the atmosphere</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="ensemble-assessment">
+<h2>Ensemble assessment:<a class="headerlink" href="#ensemble-assessment" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Index spatially explicit simulation results by location (e.g., pixel,
+polygon, region), cross-referencing reports</p>
+<ul>
+<li><p>Reference indices: <a class="reference external" href="http://s2geometry.io/">S2 Geometry</a> ,
+<a class="reference external" href="https://h3geo.org/">H3</a></p></li>
+</ul>
+</li>
+<li><p>Compare the diversity of inputs (e.g., climate, forest cover) to
+compute the probability of the observed conditions relative to the
+space of possible environments</p></li>
+<li><p>Reward model improvements relative to simulation complexity</p>
+<ul>
+<li><p>Occam’s razor is given by the term 2^(−K(µ)), which weights the
+models’ performance in each environment inversely proportional to
+its complexity [Legg07; <a class="reference external" href="https://arxiv.org/abs/0712.3329">https://arxiv.org/abs/0712.3329</a>]</p></li>
+</ul>
+</li>
+<li><p>Small sample ensembles are difficult to bootstrap into a useful
+learning loop.</p>
+<ul>
+<li><p>The Optometrist algorithm [Baltz17] leverages human interpretation
+to guide parameter search within a fixed simulation budget [ie.
+<a class="reference external" href="https://openai.com/blog/deep-reinforcement-learning-from-human-preferences/">Learning from human
+preferences</a>]</p></li>
+<li><p>This approach is particularly aligned with existing international
+land sector reporting frameworks, which rely heavily on expert
+opinion and critique.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="Conclusion.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Conclusion</p>
+        </div>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By moja global<br/>
+  
+      &copy; Copyright 2022, moja global.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
