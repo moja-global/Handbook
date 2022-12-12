@@ -1,5 +1,6 @@
-Explaining Climate mitigation and the dangers it poses to our society
-=====================================================================
+The Organisations behind the Climate Mitigation Steps
+======================================================
+As the world works together to reduce the adverse effects of climate change, here are some organizations championing the cause.
 
 **What is the IPCC?**
 
@@ -7,7 +8,7 @@ Established in 1988, the Intergovernmental Panel on Climate Change (IPCC) is an 
 
 Currently chaired by the Korean economist Hoesung Lee, the IPCC does not conduct research or partake in monitoring climate change. This body is largely concerned with the periodic review of the resources and methodologies. These resources and methodologies enable countries to estimate their emissions and removals through sinks of greenhouse gases. 
 
-Scientists extremely knowledgeable in climate science review these data reports and resources. The UNFCCC divides these scientists that prepare the special reports into working groups: Working Group I, Working Group II, and Working Group III.
+Scientists extremely knowledgeable in climate science review these data reports and resources. The scientists that prepare the special reports are divided into working groups: Working Group I, Working Group II, and Working Group III.
 
 - Working Group I(WGI): The IPCC WGI assesses the physical science supporting past, present, and future climate change. Working Group 1 covers topics like: greenhouse gases and aerosols in the atmosphere; temperature changes in the air, land, and ocean; the hydrological cycle and changing precipitation (rain and snow) patterns; extreme weather; glaciers and ice sheets; oceans and sea level; biogeochemistry and the carbon cycle; and climate sensitivity. The WGI assessments provide the global community with the resources to combat climate change.  
 
@@ -18,11 +19,11 @@ Scientists extremely knowledgeable in climate science review these data reports 
 
 **What is the UNFCCC?**
 
-Established in 1992, the United Nations Framework Convention on Climate Change, also known as UNFCCC, constitutes the foundational climate agreement that has provided the platform for most subsequent international climate agreements. Signed by 154 states, the UNFCCC created an international treaty to mitigate the effects of " dangerous human interference with the climate system" by stabilizing the greenhouse gas concentrations in the atmosphere. 
+Established in 1992, the United Nations Framework Convention on Climate Change, also known as UNFCCC, constitutes the foundational climate agreement that has provided the platform for most subsequent international climate agreements. Signed by 154 states, the UNFCCC created an international treaty to mitigate the effects of "dangerous human interference with the climate system" by stabilizing the greenhouse gas concentrations in the atmosphere. 
 
-The UNFCC uses the framework agreement to develop treaties. This framework agreement begins with the parties signed to UNFCC acknowledging a problem and committing to take action without taking concrete obligations.
+The UNFCC uses the framework agreement to develop treaties. This framework agreement begins with the parties signed to UNFCCC acknowledging a problem and committing to take action without taking concrete obligations.
 
-To help reduce greenhouse gas emissions, the UNFCC implemented the Kyoto Protocol, which acknowledges that global warming is occurring and man-made. The UNFCCC implemented the Kyoto protocol to achieve the UNFCCC'sUNFCCC's objective of reducing the effect of global warming by reducing greenhouse gas concentrations in the atmosphere.
+To help reduce greenhouse gas emissions, the UNFCCC implemented the Kyoto Protocol, which acknowledges that global warming is occurring and man-made. The UNFCCC implemented the Kyoto protocol to achieve the UNFCCC's objective of reducing the effect of global warming by reducing greenhouse gas concentrations in the atmosphere.
 
 The Kyoto Protocol applies to seven greenhouse gases. These greenhouse gases are carbon dioxide (CO2), Methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), sulfur hexafluoride (SF6), and nitrogen trifluoride (NF3). 
 
@@ -38,7 +39,6 @@ The different parties or countries signed to UNFCCC take on varying commitments 
 
 The UNFCC collects carbon emissions data from every country to provide an authoritative source of global greenhouse gas emissions. These reports underpin important international treaties like the Paris Agreement. The Paris agreement effectively negotiates between countries that are responsible for cutting emissions and who sequester the most atmospheric carbon. Broadly, we have a goal for the entire world to be carbon neutral by 2050 (this is referred to as ''net zero'' where emissions are perfectly balanced by sequestration), hopefully keeping global warming under a +2C increase in long-term mean temperature. If we fail to achieve this goal, we might end up in a +4C world which is catastrophic.
 
-The UNFCC collects carbon emissions data from every country to provide an authoritative source of global greenhouse gas emissions. These reports underpin important international treaties like the Paris Agreement. The Paris agreement effectively negotiates between countries that are responsible for cutting emissions and who sequester the most atmospheric carbon. Broadly, we have a goal for the entire world to be carbon neutral by 2050 (this is referred to as ''net zero'' where emissions are perfectly balanced by sequestration), hopefully keeping global warming under a +2C increase in long-term mean temperature. If we fail to achieve this goal, we might end up in a +4C world which is catastrophic.
 
 **What does land sector reporting mean?**
 

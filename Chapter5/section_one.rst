@@ -15,7 +15,9 @@ To run a GCBM simulation, we have to complete the following processes:
 This document discusses these steps in detail to help us run a GCBM
 simulation successfully.
 
-**Project Structure** Here is how the Standalone Project directory looks
+**Project Structure** 
+
+Here is how the Standalone Project directory looks
 
 ::
 
@@ -45,25 +47,11 @@ information:
 -  **logs:** This folder includes pre and post-processing tools and
    simulation log files
 -  **processed_output:** This folder contains the fully-processed
-   outputs. \***\*
+   outputs
 -  **tools:** This folder includes the pre and post-processing tools,
-   the GCBM and the supporting \****software to run the GCBM simulation
+   the GCBM and the supporting software to run the GCBM simulation
 -  ``EULA.txt``: This file contains the agreement for using the GCBM
    simulation
 -  ``readme.txt``: This file contains the GCBM setup information
 -  ``run_all.bat``: This file runs the project from start to finish 
 
-Prerequisites
--------------
-
-To follow through with this documentation, we must have the following:
-
--  A command line interface, for Windows users, it is important we use
-   the command prompt to run the terminal commands
--  Code editors like `Notepad
-   ++ <https://notepad-plus-plus.org/downloads/>`__ and `Visual Studio
-   Code <https://code.visualstudio.com/download>`__ ## GCBM Installation
-   Guide
-
-This section will discuss setting up an environment to run a GCBM
-simulation.
