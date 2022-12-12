@@ -29,6 +29,7 @@ The deforestation activity was modeled in the GCBM, and calculations of the CO2 
 As seen in the figure below, the emissions from biomass are far larger than those from the transfer of DOM to CO2 (atmosphere).
 
 **What is the difference between NEP and NBP?**
+
 Net Primary Production(NPP) can be defined as the sum of all stock exchanged in the aboveground, belowground biomass, and net litter turnover. This ecosystem flux indicator output illustrates a forest stand's ability to recover from a disturbance. Reductions in NPP are usually caused by disturbances with larger net emissions that retain the lands in an unvegetated state over time.
 
 
