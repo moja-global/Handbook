@@ -19,7 +19,7 @@
 
 project = 'FLINT Handbook'
 copyright = '2022, moja global'
-author = 'moja global'
+author = 'Amarachi Iheanacho'
 
 
 # -- General configuration ---------------------------------------------------
