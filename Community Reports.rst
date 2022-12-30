@@ -15,8 +15,7 @@ FLINT Model Implementations:
     
 -   GCBM Chile Implementation
     (`link <https://github.com/moja-global/GCBM.Chile.Implementation>`__)
-    
--   
+       
 
 
 Investigation of Forest Ecosystems using Moja Global Land Sector Datasets:
@@ -55,6 +54,13 @@ Investigation of Forest Ecosystems using Moja Global Land Sector Datasets:
 -   Study of types of forests in Malawi vs location of planted forests
     (`link <https://github.com/maazingly/Outreachy-mojaglobal-EDA-NZ/blob/main/Geo%20EDA%20-%20New%20Zealand.ipynb>`__)
     
+-   Exploratory Data Analysis of areas of Himachal Pradesh of India
+    (`link <https://github.com/aldeav/Outreachy_Ananyashree_2022/blob/main/1_Data_Analysis.ipynb>`__)
     
+-   Exploratory Data Analysis of New Guinea Freshwater Swamp Forests
+    (`link <https://github.com/Hafsah2020/Outreachy_Hafsah_Anibaba_2022/blob/main/favourite_forest_analysis.md>`__)
+    
+-   Exploratory Data Analysis of Yukon Interior Dry Forests
+    (`link <https://github.com/mHienp/mojaglobal/blob/main/Yukon%20Interior%20dry%20forests.ipynb>`__)
     
     
