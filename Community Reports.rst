@@ -22,7 +22,7 @@ FLINT Model Implementations:
 Investigation of Forest Ecosystems using Moja Global Land Sector Datasets:
 --------------------------------------------------------------------------
 
--   Carpathian Montane Forests
+-   Exploratory Data Analysis of Carpathian Montane Forests 
     (`link <https://github.com/derha/moja-global/blob/main/carpathian_montane_forests.ipynb>`__)
 
 -   Getting familiar with Moja Global Datasets
@@ -33,3 +33,28 @@ Investigation of Forest Ecosystems using Moja Global Land Sector Datasets:
     
 -   Study of Climatic Shifts and Emission Scenarios of Western Ghats of India
     (`link <https://github.com/Shubhams-2002/MojaGlobalDatasets/blob/main/WesternGhats.ipynb>`__)
+
+-   Deccan Thorn Scrub Forest Analysis
+    (`link <https://github.com/anamika-yadav99/moja-global_task/blob/main/Forest_analysis.ipynb>`__)
+    
+-   Exploratory Data Analysis of Congo Basin
+    (`link <https://github.com/saranda-2811/moja-global22/blob/main/moja_global_forest1.ipynb>`__)
+    
+-   Exploratory Data Analysis of World Heritage Sinhara Forest
+    (`link <https://github.com/thushariii/MojaGlobal2022/blob/main/sinharaja_Rain_forest.ipynb>`__)
+    
+-   Exploratory Data Analysis of Białowieża Forest
+    (`link <https://github.com/coloeus-monedula/moja-global-22/blob/main/forest.ipynb>`__)
+    
+-   Exploratory Data Analysis of Cross River Forests of Nigeria
+    (`link <https://github.com/Boluwape/Outreachy_Boluwape_2022./tree/main/2022-10_Contribution-Outreachy>`__)
+
+-   Exploratory Data Analysis of Ecological Zones of New Zealand
+    (`link <https://github.com/maazingly/Outreachy-mojaglobal-EDA-NZ/blob/main/Geo%20EDA%20-%20New%20Zealand.ipynb>`__)
+    
+-   Study of types of forests in Malawi vs location of planted forests
+    (`link <https://github.com/maazingly/Outreachy-mojaglobal-EDA-NZ/blob/main/Geo%20EDA%20-%20New%20Zealand.ipynb>`__)
+    
+    
+    
+    
