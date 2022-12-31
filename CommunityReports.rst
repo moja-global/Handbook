@@ -35,7 +35,7 @@ Investigation of Forest Ecosystems using Moja Global Land Sector Datasets:
 
 -   `Exploratory Data Analysis of Ecological Zones of New Zealand <https://github.com/maazingly/Outreachy-mojaglobal-EDA-NZ/blob/main/Geo%20EDA%20-%20New%20Zealand.ipynb>`__
     
--   `Study of types of forests in Malawi vs location of planted forests <https://github.com/maazingly/Outreachy-mojaglobal-EDA-NZ/blob/main/Geo%20EDA%20-%20New%20Zealand.ipynb>`__
+-   `Study of types of forests in Malawi vs location of planted forests <https://github.com/Iman-L/Outreachy_iman_linje_2022/blob/main/2.%20Forest%20Types%20of%20Malawi.ipynb>`__
     
 -   `Exploratory Data Analysis of areas of Himachal Pradesh of India <https://github.com/aldeav/Outreachy_Ananyashree_2022/blob/main/1_Data_Analysis.ipynb>`__
     
