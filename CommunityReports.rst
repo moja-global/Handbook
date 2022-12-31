@@ -21,8 +21,6 @@ Investigation of Forest Ecosystems using Moja Global Land Sector Datasets:
 
 -   `Getting familiar with Moja Global Datasets <https://github.com/Shubhams-2002/MojaGlobalDatasets/blob/main/Moja_global_datasets_done.ipynb>`__
     
--   `Exploratory Data Analysis of Moja Global datasets <https://github.com/ankitaS11/Outreachy-Moja-Global/blob/main/EDA-MojaGlobal_Outreachy.ipynb>`__
-    
 -   `Study of Climatic Shifts and Emission Scenarios of Western Ghats of India <https://github.com/Shubhams-2002/MojaGlobalDatasets/blob/main/WesternGhats.ipynb>`__
 
 -   `Deccan Thorn Scrub Forest Analysis <https://github.com/anamika-yadav99/moja-global_task/blob/main/Forest_analysis.ipynb>`__
