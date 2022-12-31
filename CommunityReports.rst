@@ -4,17 +4,13 @@ Annex of FLINT Analysis
 FLINT Model Implementations:
 ----------------------------
 
--   GCBM Carpathiams
-    (`link <https://github.com/moja-global/GCBM.Carpathians>`__)
-
--   GCBM Belize
-    (`link <https://github.com/moja-global/GCBM.Belize>`__)
-
--   GCBM Colombia
-    (`link <https://github.com/moja-global/GCBM.Colombia>`__)
+-   `GCBM Carpathiams <https://github.com/moja-global/GCBM.Carpathians>`__
     
--   GCBM Chile Implementation
-    (`link <https://github.com/moja-global/GCBM.Chile.Implementation>`__)
+-   `GCBM Belize <https://github.com/moja-global/GCBM.Belize>`__
+
+-   `GCBM Colombia <https://github.com/moja-global/GCBM.Colombia>`__
+    
+-   `GCBM Chile Implementation <https://github.com/moja-global/GCBM.Colombia>`__
        
 
 
