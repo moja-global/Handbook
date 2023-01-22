@@ -4,12 +4,7 @@
 
 The Handbook covers:
 
-- Understanding Climate Science and Organizations championing the cause.
-- Use of carbon models like the Generic Carbon Budget Model (GCBM).
-- Introduction to Full Lands and Integration tools.
-- Role of Data Version Control (DVC) in Land Sector Dataset Repos.
-- Running a GCBM Silmulation.
-- Discussion on Climate Science and Projections.
+This repository contains FLINT Handbook
 
 ## Installation
 
