@@ -1,6 +1,6 @@
 # Handbook
 ## Introduction 
-[FLINT Handbook](https://moja-global.github.io/Handbook/) is intended to provide an introduction to FLINT so that its readers, regardless of their knowledge level can understand what FLINT aims to accomplish. The FLINT handbook will go over climate science, the problems it poses to our environment, and the steps we can take to mitigate its effects.
+[FLINT Handbook](https://moja-global.github.io/Handbook/) is intended to provide an introduction to FLINT so that its readers, regardless of their knowledge level can understand what FLINT aims to accomplish. The FLINT handbook will go over climate science, the problems it poses to our environment, and the steps we can take to mitigate it's effects.
 
 The Handbook covers:
 
