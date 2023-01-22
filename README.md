@@ -1,6 +1,15 @@
 # Handbook
+## Introduction 
+[FLINT Handbook](https://moja-global.github.io/Handbook/) is intended to provide an introduction to FLINT so that its readers, regardless of their knowledge level can understand what FLINT aims to accomplish. The FLINT handbook will go over climate science, the problems it poses to our environment, and the steps we can take to mitigate its effects.
 
-This repository contains [FLINT Handbook](https://moja-global.github.io/Handbook/)  
+The Handbook covers:
+
+- Understanding Climate Science and Organizations championing the cause.
+- Use of carbon models like the Generic Carbon Budget Model (GCBM).
+- Introduction to Full Lands and Integration tools.
+- Role of Data Version Control (DVC) in Land Sector Dataset Repos.
+- Running a GCBM Silmulation.
+- Discussion on Climate Science and Projections.
 
 ## Installation
 
