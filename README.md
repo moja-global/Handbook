@@ -46,8 +46,17 @@ You can now open the Handbook website on `_build/html/index.html` in your browse
 
 ## Project Structure
 
+Please make use of the Project Structure when contributing to this Handbook to save time -
+
+1. To understand the Handbook's blueprint, take a look at the Project Structure.
+
+2. After that, you can browse the [website](https://moja-global.github.io/Handbook/) to see which sections need improvement.
+
+3. Rather than searching linearly through folders, use this Project Structure again to locate the file you want to improve.
+
+4. Submit a pull request after navigating directly to the file you wish to edit.
+
 ``` text
-Moja Global / FLINT Handbook  
   ├── Chapter 1                     # Understanding Climate Science and Carbon Models
        ├── index.rst                # Landing page of Chapter 1
        ├── section_one.rst          # The Organisations behind the Climate Mitigation Steps
@@ -81,15 +90,7 @@ Moja Global / FLINT Handbook
        ├── section_one.rst          # How do we expect our world to change?
        ├── section_two.rst          # What does the increase in CO2 mean for forests?
        └── section_three.rst        # Changing Patterns
-  ├── static                        # Folder with static files 
-       ├── custom.css               # CSS styles of Handbook
-  ├── .gitignore                    # ensures that certain files remain untracked by Git
   ├── Appendices.rst                # Vision: The reproducible science stack
   ├── Conclusion.rst                # Conclusion of the Handbook
-  ├── Makefile                      # Defines which parts of program needs to recompile
-  ├── README.md                     # Gives an overview of the entire Handbook 
-  ├── conf.py                       # Contains all configurations needed to customize Sphinx input output
-  ├── index.rst                     # Home page of the Handbook
-  ├── make.bat                      # Batch file that automates routine tasks with scripts
-  └── requirements.md               # Contains all required dependencies to run the project  
+  └── index.rst                     # Home page of the Handbook 
 ```
