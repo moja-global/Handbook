@@ -63,7 +63,7 @@ We can see the different options specified in the code block above.
 The project’s root directory has a ``dvc.yaml`` file. This ``dvc.yaml``
 file contains an established DVC pipeline.
 
-.. code:: python
+.. code:: yaml
 
 
     vars:
