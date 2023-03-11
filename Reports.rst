@@ -12,6 +12,17 @@ FLINT Model Implementations:
 
 -   `GCBM Chile Implementation <https://github.com/moja-global/GCBM.Colombia>`__
 
+-   `GCBM Pudget Implementation <https://github.com/mHienp/GCBM.Puget>`__ 
+
+
+Data Preprocessings:
+-----------------
+
+-   `Data Preprocessing for GCBM.EmeraldEdge <https://github.com/mHienp/GCBM.EmeraldEdge.Data>`__ 
+
+-   `Data preprocessing for GCBM.Carpathians <https://github.com/derha/GCBM.Carpathians.Data>`__ 
+
+-   `Data preprocessing for the GCBM implementation in Chile <https://github.com/moja-global/GCBM.Chile.Data_Preprocessing>`__ 
 
 
 Investigation of Forest Ecosystems using Moja Global Land Sector Datasets:
