@@ -15,6 +15,11 @@ FLINT Model Implementations:
 -   `GCBM Pudget Implementation <https://github.com/mHienp/GCBM.Puget>`__ 
 
 
+Running a GCBM simulation:
+--------------------------
+
+-   `GCBM EmeraldEdge <https://github.com/mHienp/GCBM.EmeraldEdge.Data/wiki>`__ 
+
 Data Preprocessings:
 -----------------
 
