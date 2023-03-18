@@ -24,7 +24,7 @@ that takes the raw ``HarmonizedWorldSoilDatabase`` dataset as a
 parameter and then converts the dataset from a ``.bil`` file to a
 ``.tif`` file. The ``BILtoTIF`` function then saves the ``.tif`` file.
 
-.. code:: py
+.. code:: python
 
       def BILtoTIF(inBilPath,outTifPath):
           inBil = gdal.Open(inBilPath)
@@ -38,7 +38,7 @@ Next, in the ``Data/Soil/bilToTif.py`` file, we have a
 ``restructureTIF`` function that restructures the ``.tif`` dataset using
 the options specified in the ``restructureTIF``.
 
-.. code:: py
+.. code:: python
 
       def restructureTIF(in_tif, out_tif):
             options = gdal.WarpOptions(
@@ -63,7 +63,7 @@ We can see the different options specified in the code block above.
 The project’s root directory has a ``dvc.yaml`` file. This ``dvc.yaml``
 file contains an established DVC pipeline.
 
-.. code:: py
+.. code:: yaml
 
 
     vars:
@@ -91,7 +91,7 @@ In the root directory, there is a ``.github`` folder that contains a
 The ``github/workflows/health-check.yaml`` file holds the GitHub Actions
 responsible for recreating this DVC pipeline.
 
-.. code:: py
+.. code:: yaml
 
 
    name: dvc-report
