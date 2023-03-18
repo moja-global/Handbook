@@ -37,7 +37,7 @@ Lastly, we shall walk through what the future holds for the world we live in, wh
 .. toctree::
    :hidden:
 
-   Chapter1/index
+   understanding-climate-science-carbon-models/index
    Chapter2/index
    Chapter3/index
    Chapter4/index
