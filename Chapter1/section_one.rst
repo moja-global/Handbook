@@ -16,10 +16,11 @@ Scientists extremely knowledgeable in climate science review these data reports 
 
 - Working Group III(WGIII): The IPCC WGII focuses on how to mitigate climate change. It takes a solution-oriented approach but refrains from advocating for any specific climate change mitigation approach.
 
+For more information refer to IPCC :footcite:t:`2023:IPCC`.
 
 **What is the UNFCCC?**
 
-Established in 1992, the United Nations Framework Convention on Climate Change, also known as UNFCCC, constitutes the foundational climate agreement that has provided the platform for most subsequent international climate agreements. Signed by 154 states, the UNFCCC created an international treaty to mitigate the effects of "dangerous human interference with the climate system" by stabilizing the greenhouse gas concentrations in the atmosphere. 
+Established in 1992, the United Nations Framework Convention on Climate Change, also known as UNFCCC :footcite:t:`2013:UN`, constitutes the foundational climate agreement that has provided the platform for most subsequent international climate agreements. Signed by 154 states, the UNFCCC created an international treaty to mitigate the effects of "dangerous human interference with the climate system" by stabilizing the greenhouse gas concentrations in the atmosphere. 
 
 The UNFCC uses the framework agreement to develop treaties. This framework agreement begins with the parties signed to UNFCCC acknowledging a problem and committing to take action without taking concrete obligations.
 
@@ -52,4 +53,6 @@ In line with the `UNFCC reporting guidelines <https://unfccc.int/resource/docs/2
 - Completeness: The greenhouse gas report should cover at least all the sources and sinks, and gases. 
 - Accuracy: The report submitted must be correct, that is, neither under nor over true emissions or removals, and those uncertainties are reduced as far as practicable.
 
+.. rubric:: References
 
+.. footbibliography::
