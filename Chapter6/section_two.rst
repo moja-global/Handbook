@@ -14,4 +14,8 @@ change results in high atmospheric CO2, it also brings about warming,
 which can cause plants to use a lot more water and photosynthesize less.
 The survival of the plants largely depends on whether the benefits
 gained from high atmospheric CO2 are significant enough to compensate
-for the stress experienced due to high temperatures.
+for the stress experienced due to high temperatures. Learn more here :footcite:t:`2019:PNAS`.
+
+.. rubric:: References
+
+.. footbibliography::

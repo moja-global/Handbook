@@ -3,7 +3,7 @@ Chapter 4: The Work DVC Plays in the Land Sector Repo
 
 FLINT requires data to run simulations properly, and this data is available in the `Land Sector Dataset repository <https://github.com/moja-global/Land_Sector_Datasets>`__.
 
-`Data Version Control (DVC) <https://dvc.org/>`__ is a data and Machine
+According to :footcite:t:`2023:DVC`, `Data Version Control (DVC) <https://dvc.org/>`__ is a data and Machine
 Learning management tool that leverages tools like Git and CI/CD to
 track and save data and simulation results models. DVC allows us to
 create and switch between different versions of data/models and adopt
@@ -24,9 +24,11 @@ The Land Sector Dataset repository is built using DVC to verify that the
 data inputs and the resulting outputs to a simulation are the same -
 which is essential when talking about scientific models. DVC can cache
 preprocessed data on publicly available remote storage, making sharing
-datasets ready for FLINT analysis easier.
+datasets ready for FLINT analysis easier. Learn more here :footcite:t:`2020:DVCorg`. 
 
+.. rubric:: References
 
+.. footbibliography::
 
 .. toctree::
    :hidden:
