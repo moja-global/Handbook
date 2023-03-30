@@ -18,7 +18,9 @@ FLINT Model Implementations:
 Running a GCBM simulation:
 --------------------------
 
--   `GCBM EmeraldEdge <https://github.com/mHienp/GCBM.EmeraldEdge.Data/wiki>`__ 
+-   `GCBM EmeraldEdge Documentation <https://github.com/mHienp/GCBM.EmeraldEdge.Data/wiki>`__ 
+
+-   `GCBM Upper Guinean Forest Documentation <https://github.com/Boluwape/GCBM.UpperGuineanForest/blob/main/Documentation.md>`__ 
 
 Data Preprocessings:
 -----------------
