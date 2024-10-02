@@ -16,8 +16,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -U sphinx
-          pip install -r requirements.txt
+          pip3 install -U sphinx
+          pip3 install -r requirements.txt
       
       - name: Build Handbook
         uses: ammaraskar/sphinx-action@master
