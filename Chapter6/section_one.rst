@@ -1,8 +1,7 @@
 How do we expect our world to change?
 =====================================
 
-According to `UCAR Center for Science
-Education <https://scied.ucar.edu/learning-zone/climate-change-impacts/predictions-future-global-climate>`__,
+According to :footcite:t:`2023:UCAR`,
 an increase in carbon dioxide and greenhouse gases in the atmosphere
 births a warmer world. This warmth can be felt in the increase of the
 earth’s average temperature and sea level, change in precipitation, etc.
@@ -59,3 +58,7 @@ increase in the frequency, season length, and affected areas of
 wildfires. The lengthened wildfire season can be attributed to different
 reasons, including more extended summer dry seasons, drier soils and
 vegetation, and predominantly increased temperatures and drought.
+
+.. rubric:: References
+
+.. footbibliography::

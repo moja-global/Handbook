@@ -5,7 +5,7 @@ To add datasets to the Land sector
 `repository <https://github.com/moja-global/Land_Sector_Datasets>`__, we
 start by cloning this repository. Check out `this
 article <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>`__
-to understand how to clone a repository on GitHub.
+to understand how to clone a repository on GitHub. Learn more :footcite:t:`2020:VCS`.
 
 Next, we go through the library and find the raw dataset that we want to
 process, in this case, the ``HarmonizedWorldSoilDatabase`` dataset. It
@@ -119,3 +119,7 @@ responsible for recreating this DVC pipeline.
 
 It is important to note that GitHub Actions only runs when there is a
 change in the python script, producing a different data output.
+
+.. rubric:: References
+
+.. footbibliography::

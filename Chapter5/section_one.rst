@@ -12,7 +12,7 @@ To run a GCBM simulation, we have to complete the following processes:
    -  Familiar ecosystem indicators (NPP, etc.) in database format
    -  Convert raw spatial output to final layers
 
-This document discusses these steps in detail to help us run a GCBM
+This document :footcite:t:`2022:GCBMbelize` discusses these steps in detail to help us run a GCBM
 simulation successfully.
 
 **Project Structure** 
@@ -55,3 +55,6 @@ information:
 -  ``readme.txt``: This file contains the GCBM setup information
 -  ``run_all.bat``: This file runs the project from start to finish 
 
+.. rubric:: References
+
+.. footbibliography::
