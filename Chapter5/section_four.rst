@@ -33,7 +33,7 @@ The bounding box in the code block above receives three parameters:
 
 Replace the bounding box with the code block below.
 
-.. code:: py
+.. code:: python
 
        bbox = BoundingBox(
            VectorLayer(
@@ -54,7 +54,7 @@ The classifier layers are shown in the image below.
 
 Replace the classifier layers with this code block below.
 
-.. code:: py
+.. code:: python
 
        classifier_layers = [
                    VectorLayer("LdSpp", os.path.join(layer_root, "inventory", "inv_sample.shp"), Attribute("LdSpp"), tags=[classifier_tag]),
@@ -77,7 +77,7 @@ the age layer in the image below.
 
 We replace the age layer with this piece of code.
 
-.. code:: py
+.. code:: python
 
        # Age - layer name must be "initial_age" so that the script can update the GCBM configuration file.
                VectorLayer("initial_age", os.path.join(layer_root, "inventory", "inv_sample.shp"), Attribute("Age"),
@@ -92,7 +92,7 @@ annual temperature vector layer.
 
 The vector layer is replaced by this raster layer.
 
-.. code:: py
+.. code:: python
 
        RasterLayer(os.path.join(layer_root, "environment", "NAmerica_MAT_1971_2000.tif"), 
              name= "mean_annual_temperature"),
