@@ -13,8 +13,8 @@ To follow through with this documentation, we must have the following:
    the command prompt to run the terminal commands
 -  Code editors like `Notepad
    ++ <https://notepad-plus-plus.org/downloads/>`__ and `Visual Studio
-   Code <https://code.visualstudio.com/download>`__ ## GCBM Installation
-   Guide
+   Code <https://code.visualstudio.com/download>`__ 
+   
 
 
 .. toctree::
